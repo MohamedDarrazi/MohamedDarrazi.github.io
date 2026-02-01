@@ -1,0 +1,51 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 1 févr. 2026, 14:24:31
+    Author     : 33767
+*/
+
+.photo-profil {
+    width: 180px;
+   /* border-radius: 0%; */
+    border: 0px solid #343a40;
+    margin-bottom: 20px;
+}
+
+
+/* Permet aux menus Bootstrap 3 de fonctionner visuellement sous Bootstrap 4 */
+.dropdown-menu > li > a {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #007bff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #f8f9fa;
+    color: #0056b3;
+}
+
+/* Affiche correctement les titres (Documentations, Fiches, etc.) */
+.dropdown-header {
+    font-size: 0.75rem;
+    color: #6c757d;
+    padding: .5rem 1.5rem;
+}
+
+.caret {
+    margin-left: 5px;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    display: inline-block;
+}
